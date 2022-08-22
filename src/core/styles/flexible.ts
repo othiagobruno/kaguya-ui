@@ -4,7 +4,9 @@ export const flexible = {
   jus: 'justifyContent',
   direction: 'flexDirection',
   dir: 'flexDirection',
-  display: 'display'
+  display: 'display',
+  visibility: 'visibility',
+  flex: 'flex'
 }
 
 export interface IFlexibleStyle {
@@ -28,5 +30,15 @@ export interface IFlexibleStyle {
   direction?: 'row' | 'column' | 'row-reverse' | 'column-reverse'
   dir?: 'row' | 'column' | 'row-reverse' | 'column-reverse'
 
-  display?: 'flex' | 'none' | 'block' | 'inline-block'
+  display?:
+    | 'flex'
+    | 'none'
+    | 'block'
+    | 'inline-block'
+    | 'inline'
+    | 'grid'
+    | 'initial'
+
+  visibility?: 'visible' | 'hidden' | 'collapse'
+  flex?: string
 }
