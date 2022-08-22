@@ -2,8 +2,8 @@
   "compilerOptions": {
     "baseUrl": ".",
     "outDir": "./dist",
-    "allowUnreachableCode": false,
-    "allowUnusedLabels": false,
+    "allowUnreachableCode": true,
+    "allowUnusedLabels": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "importsNotUsedAsValues": "error",
@@ -33,6 +33,5 @@
       "kaguya-ui": ["./src/index"]
     }
   },
-  "exclude": ["lib/**/*"],
-  "include": ["src/**/*"]
+  "exclude": ["lib/**/*"]
 }

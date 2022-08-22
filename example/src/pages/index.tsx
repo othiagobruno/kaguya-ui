@@ -1,9 +1,9 @@
 import React from 'react'
-import { Box } from 'kaguya-ui'
+import { Box } from 'kaguyaui-core'
 
 const Pages: React.FC = () => {
   return (
-    <Box bg='red' p={20} as={<h1 />}>
+    <Box fw='900' fs={20} as={<h1 />}>
       Olá mundo
     </Box>
   )

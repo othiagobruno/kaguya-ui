@@ -1,6 +1,6 @@
 {
-  "name": "kaguya-ui",
-  "version": "1.2.4",
+  "name": "kaguyaui-core",
+  "version": "1.0.0",
   "description": "Made with create-react-library",
   "author": "othiagobruno",
   "license": "MIT",

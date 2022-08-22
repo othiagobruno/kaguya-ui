@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/no-var-requires */
 /** @type {import('next').NextConfig} */
-const withTM = require('next-transpile-modules')(['kaguya-ui'])
+const withTM = require('next-transpile-modules')(['kaguyaui-core'])
 
 module.exports = withTM({
   reactStrictMode: false,
