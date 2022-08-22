@@ -1,5 +1,5 @@
 /* eslint-disable react-hooks/rules-of-hooks */
-import { IViewStyleConstants, viewStyleConstants } from './box_style'
+import { IStyleCompose, StyleCompose } from './box_style'
 import type { CSSProperties } from 'react'
 import { useConverToColor } from './utils/convertToColor'
 
@@ -11,9 +11,7 @@ export const useMakeStyle = (props: any) => {
 
   for (const keys in props) {
     const value = props[keys as keyof CssStyle]
-    const key = viewStyleConstants[
-      keys as keyof IViewStyleConstants
-    ] as keyof CssStyle
+    const key = StyleCompose[keys as keyof IStyleCompose] as keyof CssStyle
 
     if (key) {
       if (listColors.includes(keys)) {

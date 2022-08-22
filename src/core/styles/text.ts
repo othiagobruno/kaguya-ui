@@ -21,9 +21,9 @@ export const text = {
 }
 
 export interface ITextStyle {
-  textAlign: 'center' | 'justify' | 'left' | 'right'
-  fontSize: string
-  fontWeight:
+  textAlign?: 'center' | 'justify' | 'left' | 'right'
+  fontSize?: string
+  fontWeight?:
     | 'bold'
     | 'normal'
     | '100'
@@ -35,31 +35,31 @@ export interface ITextStyle {
     | '700'
     | '800'
     | '900'
-  lineHeight: string
-  textTransform: 'capitalize' | 'lowercase' | 'uppercase' | 'none'
-  color: string
-  vertialAlign:
+  lineHeight?: string
+  textTransform?: 'capitalize' | 'lowercase' | 'uppercase' | 'none'
+  color?: string
+  vertialAlign?:
     | 'baseline'
     | 'sub'
     | 'super'
     | 'text-top'
     | 'text-bottom'
     | 'middle'
-  textDecoration: string
-  textDecorationColor: string
-  textDecorationStyle: 'dashed' | 'dotted' | 'solid' | 'wavy'
+  textDecoration?: string
+  textDecorationColor?: string
+  textDecorationStyle?: 'dashed' | 'dotted' | 'solid' | 'wavy'
 
-  latterSpacing: string
-  wordSpacing: string
-  textShadow: string
-  textOverflow:
+  latterSpacing?: string
+  wordSpacing?: string
+  textShadow?: string
+  textOverflow?:
     | 'clip'
     | 'ellipsis'
     | 'inherit'
     | 'initial'
     | 'unset'
     | 'visible'
-  whiteSpace:
+  whiteSpace?:
     | 'normal'
     | 'nowrap'
     | 'pre'
@@ -69,7 +69,7 @@ export interface ITextStyle {
     | 'inherit'
     | 'unset'
 
-  fontFamily: string
-  fontStyle: 'normal' | 'italic' | 'oblique' | 'initial' | 'inherit' | 'unset'
-  fontVariant: 'normal' | 'small-caps' | 'initial' | 'inherit' | 'unset'
+  fontFamily?: string
+  fontStyle?: 'normal' | 'italic' | 'oblique' | 'initial' | 'inherit' | 'unset'
+  fontVariant?: 'normal' | 'small-caps' | 'initial' | 'inherit' | 'unset'
 }

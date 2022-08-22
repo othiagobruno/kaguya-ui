@@ -1144,10 +1144,10 @@ json5@^1.0.1:
     array-includes "^3.1.5"
     object.assign "^4.1.2"
 
-kaguyaui-core@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/kaguyaui-core/-/kaguyaui-core-1.0.0.tgz#c188e9ab2e4c5dea35c94399e424a02d316fb0dd"
-  integrity sha512-iKV1VcWSN1v77TGQtG8JlhvUgvqSKurSuJqZYJqfbnA7sazEQR0nXlyVmLUGY231YNaMnUhHvChpQsv1S2X20w==
+kaguyaui-core@^1.0.4:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/kaguyaui-core/-/kaguyaui-core-1.0.4.tgz#2d569566af79a8df116835b7c7042dedbd3e43eb"
+  integrity sha512-9uAaTDjVE9OKnOMyNFvGJMJ3NtnglF+H2JBgMgRseap95r/+6Bq+rbQbq8ygwKAxXI6lnOkrJQmybLZjBNOpXA==
   dependencies:
     deepmerge "^4.2.2"
 

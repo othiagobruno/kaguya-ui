@@ -3,7 +3,7 @@ import { Box } from 'kaguyaui-core'
 
 const Pages: React.FC = () => {
   return (
-    <Box fw='900' fs={20} as={<h1 />}>
+    <Box bg='red' textAlign='center' as={<h1 />}>
       Olá mundo
     </Box>
   )

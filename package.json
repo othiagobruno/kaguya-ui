@@ -1,6 +1,6 @@
 {
   "name": "kaguyaui-core",
-  "version": "1.0.1",
+  "version": "1.0.4",
   "description": "Made with create-react-library",
   "author": "othiagobruno",
   "license": "MIT",
@@ -16,7 +16,7 @@
     "dev": "next dev",
     "start": "next start",
     "lint": "next lint",
-    "pub": "yarn build && yarn publish"
+    "pub": "yarn build && npm publish"
   },
   "peerDependencies": {
     "react": "*",

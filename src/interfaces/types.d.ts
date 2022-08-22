@@ -1,21 +1,10 @@
-import { IViewStyleConstants } from '../core/box_style'
-import { ITextStylesConstants } from '../core/text_style'
+import { IStyleCompose } from '../core/box_style'
 
-export interface BoxProps extends ITextStylesConstants {
+export interface BoxProps extends IStyleCompose {
   as?: any
   children?: React.ReactNode
 }
 
-export interface StackProps extends IViewStyleConstants {
+export interface StackProps extends IStyleCompose {
   children?: React.ReactNode
 }
-
-export interface CenterProps extends IViewStyleConstants {
-  children?: React.ReactNode
-}
-
-export interface TextProps extends ITextStylesConstants {}
-
-export interface TitleProps extends ITextStylesConstants {}
-
-export interface ParagraphProps extends ITextStylesConstants {}

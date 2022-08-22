@@ -4,7 +4,7 @@ import { flexible, IFlexibleStyle } from './styles/flexible'
 import { ISpacingStyle, spacings } from './styles/spacing'
 import { ITextStyle, text } from './styles/text'
 
-export const viewStyleConstants = {
+export const StyleCompose = {
   ...text,
   ...background,
   ...border,
@@ -19,7 +19,7 @@ export const viewStyleConstants = {
   minH: 'minHeight'
 }
 
-export interface IViewStyleConstants
+export interface IStyleCompose
   extends ITextStyle,
     IBackgroundStyle,
     IBorderStyle,

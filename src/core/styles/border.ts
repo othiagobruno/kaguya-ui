@@ -12,14 +12,14 @@ export const border = {
 }
 
 export interface IBorderStyle {
-  radius: string
-  border: string
-  borderW: string
-  borderStyle: string
-  borderColor: string
-  borderSides: string
-  borderBottom: string
-  borderTop: string
-  borderLeft: string
-  borderRight: string
+  radius?: string
+  border?: string
+  borderW?: string
+  borderStyle?: string
+  borderColor?: string
+  borderSides?: string
+  borderBottom?: string
+  borderTop?: string
+  borderLeft?: string
+  borderRight?: string
 }
